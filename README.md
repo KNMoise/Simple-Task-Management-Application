@@ -18,7 +18,7 @@ Key Benefits
 🚀 Quick Setup: Easy installation and configuration for local development.
 
 Getting Started
-Clone this repository: git clone https://github.com/username/taskify.git
+Clone this repository: git clone https://github.com/KNMoise/Simple-Task-Management-Application.git
 Install dependencies: composer install && npm install
 Set up the database: Configure .env file and run migrations: php artisan migrate
 Start the development server: php artisan serve
