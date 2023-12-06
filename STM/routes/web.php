@@ -1,7 +1,7 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\TaskController;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +14,10 @@ use App\Http\Controllers\TaskController;
 |
 */
 
-Route::get('/', [TaskController::class,'index']);
+Route::get('/', function () {
+    return view('index');
+}); 
+Route::get('screens/create', [TaskController::class, 'create']);
+
+
+
