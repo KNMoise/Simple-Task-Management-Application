@@ -15,9 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('index');
+    return view('welcome');
 }); 
-Route::get('screens/create', [TaskController::class, 'create']);
-
-
-
+Route::get('/home', function(){
+    return view('home');
+});
+Route::controller('HomeController');
